@@ -140,7 +140,12 @@ public class Part1 {
         Scanner num1= new Scanner(System.in);
 
         int  number1= num1.nextInt();
-        System.out.println("You gave the number "+number1);
+        Sy
+
+
+
+
+stem.out.println("You gave the number "+number1);
 */
 
         //Part 3
