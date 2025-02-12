@@ -346,43 +346,35 @@ public static void main(String[] args) {
 
 /*
 
-        public static void printSpaces(int spaces) {
-            for (int i = 0; i < spaces; i++) {
+        ppublic class ChristmasTree {
+
+    public static void christmasTree(int height) {
+        for (int i = 1; i <= height; i++) {
+            for (int j = 0; j < height - i; j++) {
                 System.out.print(" ");
             }
-        }
-
-
-        public static void printStars(int stars) {
-            for (int i = 0; i < stars; i++) {
+            for (int j = 0; j < (2 * i - 1); j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
 
-
-        public static void christmasTree(int height) {
-
-            for (int i = 1; i <= height; i++) {
-
-                printSpaces(height - i);
-
-                printStars(2 * i - 1);
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < height - 2; j++) {
+                System.out.print(" ");
             }
-
-            for (int i = 0; i < 2; i++) {
-
-                printSpaces(height - 2);
-
-                printStars(3);
+            for (int j = 0; j < 3; j++) {
+                System.out.print("*");
             }
+            System.out.println();
         }
+    }
 
+    public static void main(String[] args) {
+        christmasTree(10);
+    }
+}
 
-        public static void main(String[] args) {
-
-            christmasTree(10);
-        }
 */
 }
 
