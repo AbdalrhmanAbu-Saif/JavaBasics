@@ -23,9 +23,10 @@ public class NextDay {
 */
         SimpleDate now = new SimpleDate(13, 2, 2015);
         SimpleDate afterOneWeek = now;
+        System.out.println("Now: " + now);
         afterOneWeek.advance(7);
 
-        System.out.println("Now: " + now);
+
         System.out.println("After one week: " + afterOneWeek);
     }
 }

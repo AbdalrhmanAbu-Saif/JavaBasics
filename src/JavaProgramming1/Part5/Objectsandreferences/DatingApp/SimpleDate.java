@@ -73,9 +73,10 @@ public class SimpleDate {   private int day;
         int newYear = (newTotalDays - 1) / 360 + 1;
         int remainingDays = (newTotalDays - 1) % 360 + 1;
 
-        int newMonth = (remainingDays - 1) / 30 + 1;
+        int newMonth = (remainingDays - 1) / 12 + 1;
         int newDay = (remainingDays - 1) % 30 + 1;
 
         return new SimpleDate(newDay, newMonth, newYear);
     }
+
 }

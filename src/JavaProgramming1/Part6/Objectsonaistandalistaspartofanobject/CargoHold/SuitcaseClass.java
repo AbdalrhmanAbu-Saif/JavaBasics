@@ -38,6 +38,8 @@ public class SuitcaseClass {
             System.out.println(item);
         }
     }
+
+
     public int totalWeight() {
         return currentTotalWeight;
     }

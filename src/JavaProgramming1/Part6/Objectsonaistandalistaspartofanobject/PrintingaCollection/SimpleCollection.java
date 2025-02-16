@@ -6,18 +6,16 @@ public class SimpleCollection {
     private String name;
     private ArrayList<String> elements;
 
-    // Constructor
+
     public SimpleCollection(String name) {
         this.name = name;
         this.elements = new ArrayList<>();
     }
 
-    // Adds an element to the collection
     public void add(String element) {
         this.elements.add(element);
     }
 
-    // toString method to print the collection
     @Override
     public String toString() {
         if (this.elements.isEmpty()) {
@@ -33,7 +31,7 @@ public class SimpleCollection {
             for (String element : this.elements) {
                 sb.append(element).append("\n");
             }
-            return sb.toString().trim();  // Remove trailing newline
+            return sb.toString().trim();
         }
     }
 }
