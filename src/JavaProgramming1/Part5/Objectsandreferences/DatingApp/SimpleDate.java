@@ -1,6 +1,8 @@
 package JavaProgramming1.Part5.Objectsandreferences.DatingApp;
 
-public class SimpleDate {   private int day;
+public class SimpleDate {
+
+    private int day;
     private int month;
     private int year;
 
