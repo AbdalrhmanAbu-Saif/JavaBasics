@@ -1,5 +1,7 @@
 package JavaProgramming1.Part5.Objectsandreferences.Archive;
 
+import JavaProgramming2.Part9.ClassInheritance.DifferentKindsOfBoxes.Item;
+
 public class ItemP2 {
     String identifier;
     String name;
