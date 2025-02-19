@@ -24,7 +24,7 @@ public class AddingandListingitems {
                 break;
             }
 
-            items.add(new Item(identifier, name));
+         //   items.add(new Item(identifier, name));
         }
 
         System.out.println("\n==Items==");

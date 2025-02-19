@@ -17,7 +17,8 @@ public class ItemP2 {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Item item = (Item) obj;
-        return identifier.equals(item.identifier);
+       // return identifier.equals(item.identifier);
+        return false;
     }
 
     @Override
